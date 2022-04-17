@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(23, 26, 46);
+}
+
+header {
+    height:100%;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: rgb(23, 26, 46);
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+
+#canvas {
+    background-color: white;
+    overflow: hidden;
+}

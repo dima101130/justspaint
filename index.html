@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рисовалка</title>
+</head>
+<body>
+    <header>
+    <input id="color" type="color"></input>
+    <select name="kl" id="kl" class="button">
+        <option value="1">Карандаш</option>
+        <option value="2">Ластик</option>
+    </select>
+    <select name="size" id="size" class="button">
+        <option value=5>5px</option>
+        <option value=10>10px</option>
+        <option value=20>20px</option>
+        <option value=50>50px</option>
+        <option value=100>100px</option>
+    </select>
+    <button id="clearall" class="button">Отчиститить весь экран</button>
+</header>
+    <canvas id="canvas"></canvas>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+</body>
+</html>
