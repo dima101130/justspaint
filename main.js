@@ -3,6 +3,8 @@ var clearall = document.getElementById("clearall");
 var ctx = canvas.getContext("2d");
 var mycolor;
 
+alert("no")
+
 document.getElementById("color").oninput = function() {
     mycolor = this.value;
 }
