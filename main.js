@@ -3,6 +3,16 @@ var clearall = document.getElementById("clearall");
 var ctx = canvas.getContext("2d");
 var mycolor;
 
+window.addEventListener("scroll", preventMotion, false);
+window.addEventListener("touchmove", preventMotion, false);
+
+function preventMotion(event)
+{
+    window.scrollTo(0, 0);
+    event.preventDefault();
+    event.stopPropagation();
+}
+
 document.getElementById("color").oninput = function() {
     mycolor = this.value;
 }
