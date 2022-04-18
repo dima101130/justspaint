@@ -29,12 +29,12 @@ canvas.addEventListener("touchstart", function (e) {
         if (clear == "1") {
             var x = e.touches[0].pageX
             var y = e.touches[0].pageY
-            ctx.fillRect(x-size/2, y-size/2, size, size)
+            ctx.fillRect(x-size, y-size, size, size)
             ctx.fillStyle = mycolor
         }else {
             var x = e.touches[0].pageX
             var y = e.touches[0].pageY
-            ctx.clearRect(x-size/2, y-size/2, size, size);
+            ctx.clearRect(x-size, y-size, size, size);
         }
     });
 });
