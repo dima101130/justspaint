@@ -5,15 +5,7 @@ var mycolor;
 
 //no
 
-window.addEventListener("scroll", preventMotion, false);
-window.addEventListener("touchmove", preventMotion, false);
-
-function preventMotion(event)
-{
-    window.scrollTo(0, 0);
-    event.preventDefault();
-    event.stopPropagation();
-}
+document.body.addEventListener('touchstart', function(e){ e.preventDefault(); });
 
 document.getElementById("color").oninput = function() {
     mycolor = this.value;
