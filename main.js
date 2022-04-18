@@ -5,7 +5,9 @@ var mycolor;
 
 //no
 
-document.body.addEventListener('touchstart', function(e){ e.preventDefault(); });
+document.body.style.position = "fixed";
+document.body.style.overflowY = "hidden";
+document.body.addEventListener('touchstart', function(e){ e.preventDefault()});
 
 document.getElementById("color").oninput = function() {
     mycolor = this.value;
