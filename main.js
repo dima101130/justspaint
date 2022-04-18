@@ -3,6 +3,8 @@ var clearall = document.getElementById("clearall");
 var ctx = canvas.getContext("2d");
 var mycolor;
 
+//no
+
 window.addEventListener("scroll", preventMotion, false);
 window.addEventListener("touchmove", preventMotion, false);
 
