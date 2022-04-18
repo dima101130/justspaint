@@ -18,6 +18,8 @@ clearall.addEventListener("click", function (e) {
     ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
 });
 
+alert("hi")
+
 canvas.addEventListener("touchstart", function (e) {
     canvas.addEventListener("touchmove", function (e) {
         var clear = document.getElementById("kl").value;
